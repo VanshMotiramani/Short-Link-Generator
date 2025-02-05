@@ -11,7 +11,7 @@ const requestHeaders = {
 const getShortLink = () => {
     const linkRequest = {
         destination: url.value,
-        domain: { fullName: "rebrand.ly" }
+        domain: { fullName: "shortened.ly" }
     }
 
     $.ajax({
